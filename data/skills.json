@@ -1,0 +1,26 @@
+[
+  {
+    "grouping":"Architecture",
+    "skills":[ "Event-Driven","Microservices","RESTful APIs","Composability"]
+  },
+  {
+    "grouping":"Containerization & Plaform",
+    "skills":[ "Kubernetes","Docker","Helm","Rancher","Kubernetes Platformization"]
+  },    
+  {
+      "grouping":"DevOps & IaC",
+      "skills":[ "Gitlab CI","ArgoCD","Terraform","Ansible"]
+  },
+  {
+    "grouping":"Cloud Computing",
+    "skills":[ "AWS","Azure","Aruba Cloud","Hetzner Cloud", "Digital Ocean"]
+  },
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Java","git","linux","bash"]
+  },
+  {
+    "grouping":"Programming Frameworks",
+    "skills":[ "Spring Boot","Spring Cloud","JPA"]
+  }
+]
