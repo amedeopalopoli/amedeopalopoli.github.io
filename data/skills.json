@@ -22,5 +22,16 @@
   {
     "grouping":"Programming Frameworks",
     "skills":[ "Spring Boot","Spring Cloud","JPA"]
-  }
+  },
+  {
+    "grouping":"Certifications",
+    "skills":[ "AWS Solution Architect Associate",
+    "Elasticsearch Certified Engineer",
+    "Certified Kubernetes Administrator",
+    "Certified Kubernetes Specialist",
+    "Certified Kubernetes Application Developer",
+    "Kubernetes and Cloud Native Associate",
+    "Kubernetes and Cloud Native Security Associate"
+    ]
+  }  
 ]
