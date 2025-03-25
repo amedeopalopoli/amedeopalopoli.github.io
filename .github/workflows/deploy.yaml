@@ -29,4 +29,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: main
+          keep_files: true  # Optional: keeps other files in main branch (like README.md)
           cname: amedeopalopoli.com
+      
