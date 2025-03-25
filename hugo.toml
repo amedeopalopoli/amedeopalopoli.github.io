@@ -10,17 +10,16 @@ enableGitInfo = false
 [params]
 address = "Gorgonzola(MI)"
 email = "amedeo.palopoli@gmail.com"
-favicon = "/favicon.ico"
 firstName = "Amedeo"
 lastName = "Palopoli"
 phone = "+39 338 8928209"
-profileImage = "img/TechChat.png"
+profileImage = "images/me.jpeg"
 showQr = true
-showContact = true
+showContact = false
 showBoards  = false
 showCertifications = true
 showSocializations = true
-sections = ["skills","publications","creations","contributions","experience","education","blog"]
+sections = ["skills","publications","experience","education"]
 
 
 [params.google]

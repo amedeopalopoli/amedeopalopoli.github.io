@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenStack on Amedeo Palopoli</title>
+    <link>http://localhost:1313/tags/openstack/</link>
+    <description>Recent content in OpenStack on Amedeo Palopoli</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QoS and performance metrics for container-based virtualization in cloud environments</title>
+      <link>http://localhost:1313/publications/performancemetrics/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/performancemetrics/</guid>
+      <description>&lt;p&gt;Current cloud deployments heavily depend on hypervisor-based virtualizations. The overarching characteristics of Docker and containerization have given them a momentum in their widespread adoption recently as alternatives for their counterparts. However, little research has been done for comparing the QoS of both technologies, thus leaving the domain without widely accepted performance metrics. Aiming at informing the decision of the best fit in a specific cloud deployment, we have designed performance metrics that compare the performance of both designs in an in-house cluster deployed by using OpenStack. We focus on well-established representatives as baselines, including KVM from the hypervisor-based side, LXD from the container-based side in addition to Docker.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Containerization in Cloud Computing: performance analysis of virtualization architectures</title>
+      <link>http://localhost:1313/publications/thesisbook/</link>
+      <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/thesisbook/</guid>
+      <description>&lt;p&gt;The increasing adoption of cloud computing is strongly influenced by emerging of technologies whose aim is to improve the development and deployment processes of enterprise applications. The goal of this thesis is to investigate one of these solutions, called “containerization”, and deeply analyze how this solution can be included in cloud infrastructures as an alternative to complementary solutions like virtual machines. So far, the virtual machine model has been the predominant solution. The key differentiator nature that containers offer has stimulated an increasing adoption of this technology because improves resource management, resource sharing, and it guarantees substantial improvements regarding provisioning time of single instances.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
