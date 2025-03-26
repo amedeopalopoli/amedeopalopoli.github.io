@@ -7,8 +7,14 @@ PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
 enableGitInfo = false
 
+[[menu.main]]
+name = "Contact"
+url = "#contact"
+weight = 50
+
+
 [params]
-address = "Gorgonzola(MI)"
+address = "Gorgonzola | Milan, Italy"
 email = "amedeo.palopoli@gmail.com"
 firstName = "Amedeo"
 lastName = "Palopoli"
@@ -19,8 +25,10 @@ showContact = false
 showBoards  = false
 showCertifications = true
 showSocializations = true
-sections = ["skills","publications","experience","education"]
+linkedin = "https://linkedin.com/in/yourname"
+sections = ["skills","publications","experience","education","contact"]
 
+ignoreLogs = ["warning-goldmark-raw-html"]
 
 [params.google]
 

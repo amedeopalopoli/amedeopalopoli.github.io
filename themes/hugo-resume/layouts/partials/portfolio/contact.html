@@ -1,0 +1,20 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+  <div class="my-auto">
+    <h2 class="mb-5">Contact</h2>
+
+    {{ $page := site.GetPage "contact" }}
+
+    <div class="section-content">
+      {{ $page.Content | markdownify }}
+
+      <ul class="list-unstyled">
+        {{ with $page.Params.email }}
+          <li><strong>Email:</strong> <a href="mailto:{{ . }}">{{ . }}</a></li>
+        {{ end }}
+        {{ with $page.Params.linkedin }}
+          <li><strong>LinkedIn:</strong> <a href="{{ . }}" target="_blank">{{ . }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</section>
