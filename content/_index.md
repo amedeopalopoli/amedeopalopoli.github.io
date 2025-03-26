@@ -9,8 +9,9 @@ outputs:
 - rss
 - json
 ---
-CNCF Kubeastronaut, Cloud Architect at ArubaCloud, passionate about technological innovation and expert in containerization and cloud computing.
 
-I embraced Kubernetes in 2016 during his Master's thesis in Computer Engineering at the University of Bologna. During this time, I deepened my interest in containerization and deploying cloud-native applications on Kubernetes through research studies that resulted in publications in scientific journals such as ACM and IEEE. The world of cloud-native and related technologies is an integral part of my professional journey, with ongoing study facilitated by various certifications, including AWS Solution Architect and Elasticsearch Certified Engineer. 
+**CNCF Kubeastronaut, Cloud Architect at ArubaCloud, passionate about technological innovation and expert in containerization and cloud computing.**
 
-I strongly believe that Kubernetes has the potential to radically transform how organizations develop, deploy, and manage their applications. Fascinated by the emergence of the CNCF to support an interoperable and scalable cloud-native ecosystem, I decided to take the certification exams from "The Linux Foundation" in the Kubernetes field and successfully completed CKA, CKAD, CKS, KCNA, and KCSA, ranking among the first Italians in the recent KubeAstronaut program
+I embraced Kubernetes in 2016 during my Master's thesis in Computer Engineering at the University of Bologna. During this time, I deepened my interest in containerization and the deployment of cloud-native applications on Kubernetes through research studies that led to publications in scientific journals such as ACM and IEEE. The cloud-native ecosystem and its related technologies have been an integral part of my professional journey, supported by continuous learning and various certifications, including AWS Solutions Architect and Elasticsearch Certified Engineer. 
+
+I firmly believe Kubernetes has the potential to radically transform how organizations develop, deploy, and manage their applications. Fascinated by the rise of the CNCF and its role in supporting an interoperable and scalable cloud-native ecosystem, I pursued Kubernetes certifications through The Linux Foundation. I successfully achieved CKA, CKAD, CKS, KCNA, and KCSA—ranking among the first Italians to complete the recent KubeAstronaut program.
