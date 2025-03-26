@@ -1,32 +1,45 @@
 [
     {
+        "role": "Cloud Architect",
+        "company": "Aruba S.p.A | Remote",
+        "summary": "Solution Architect in the Cloud Business Line to analyze business requirements in order to design technical solutions for the dev teams.\n\nActivities:\n- Contribute to the SECA initiative (https://github.com/eu-sovereign-cloud/spec)\n- Be involved in site reliability and high availability concerns\n- Support application deliverables with DevOps Methodologies and Microservice Design Patterns\n- Combine technical skills with business knowledge to focus on communication and collaboration\n- Perform debugging and performance analysis on tech solutions\n- Develop proof-of-concept projects to validate proposed solutions\n- Consider the long-term use of the product and implement scalability and adaptability into the solution\n\nKeywords:\n- Kubernetes\n- API First\n- Infrastructure as Code",
+        "range": "February 2022 - current"
+      },
+      {
+        "role": "Cloud/DevOps Specialist",
+        "company": "Freelancer, | Remote",
+        "summary": "In my free time (outside of work), I provide advising and support to small companies (PMI), which helps me strengthen both my experience and professional skills.\n\nBelow some details about involved activities with every company:\n\n- WELANCE [Berlin, Germany]: \"Porting the Welance Infrastructure to the Cloud with DevOps methodologies\"\n | [Link](https://welance.com/)\n\n- NTPLUS [Torre del Greco (NA), Italy)]: \"Nanomid\"\n  | [Link](https://ntplus.it/)\n\n- XSEVEN [Palermo, Italy] – Ansible Automation Platform | [Link](https://www.xseven.it/)\n\n- EDITT [Roma, Italy]: Manage and Deploy Websites for Digital Agencies on Kubernetes\n  | [Link](https://editt.it/)\n\n- MINERVA TECHNOLOGIES [Milano, Italy]: Kubernetes on dedicated servers using ProxMox and Infrastructure as Code\n  | [Link](https://minervatechnologies.it/)",
+        "range": "January 2019 - current"
+      },
+
+      {
         "role":"Cloud Architect",
-        "company":"Aruba S.p.A",
-        "summary":"Solution Architect in the Cloud Business Line to analyze business requirements in order to design technical solutions for the dev teams.",
-        "range":"February 2022 - current"
-    },
-    {
-        "role":"Cloud/DevOps Specialist",
-        "company":"Freelancer",
-        "summary":"In the free time (out of work) I provide advising and support to small companies(PMI) by which I am able to strengthen my experience and professional skills.",
-        "range":"January 2019 - current"
-    },    
-    {
-        "role":"Cloud Architect",
-        "company":"A2A S.p.A",
-        "summary":"IT Service Manager on supporting dev teams with multi cloud architectures in hybrid deployments with Google Cloud Platform, AWS, Azure and On-Premise.",
+        "company":"A2A S.p.A | Milan, Italy",
+        "summary":"IT Service Manager on supporting dev teams with multi cloud architectures in hybrid deployments with Google Cloud Platform, AWS, Azure and On-Premise.\nIn the area of Platforms, Enterprise Architectures & Engineering working as IT Service Manager for the DevOps & Cloud initiatives of the A2A Group. Mainly focused on supporting application teams on multi cloud architectures with an hybrid deployment on Google Cloud Platform, AWS, Azure and On Premise.\nIn the area of Platforms, Enterprise Architectures & Engineering working as IT Service Manager for the DevOps & Cloud initiatives of the A2A Group. Mainly focused on supporting application teams on multi cloud architectures with an hybrid deployment on Google Cloud Platform, AWS, Azure and On Premise.",
         "range":"February 2022 - December 2022"
     },
     {
         "role":"DevOps Engineer",
-        "company":"Ing Bank Italy",
-        "summary":"Mainly Focused to support Head Office Departments dedicated to the cloud transformation. Involved activities are the following: Support the overall IT areas in configuration management tasks with Ansible; Automating Deploy Activities with Azure DevOps and RedHat Openshift",
+        "company":"Ing Bank Italy | Remote",
+        "summary": "In the DevOps Area of the Bank, mainly focused on supporting Head Office Departments dedicated to cloud transformation.\n\nInvolved activities are the following:\n- Support the overall IT areas in configuration management tasks\n- Automate deployment activities\n- Lead the test automation initiatives\n- Environment provisioning and Infrastructure as Code\n\nTECH KEYWORDS\n- OpenShift / Kubernetes\n- Docker\n- Azure Cloud\n- Azure DevOps\n- Elasticsearch / ELK (OpenDistro)\n- Ansible\n- GitOps\n- Agile Scrum Team",
         "range":"March 2021 - January 2022"
     },
     {
-        "role":"Cloud Developer/Engineer",
-        "company":"Reply S.p.A.",
-        "summary":"Involved in cloud migration projects with microservice desisn and innovative technologies such as Kubernetes, Docker, Elasticsearch, Jenkins,Spring Boot.",
-        "range":"January 2018 - February 2021"
-    }
+        "role":"Cloud Engineer",
+        "company":"Open Reply S.R.L. - Reply S.p.A Group | Milan, Italy",
+        "summary": "Mainly focused on DevOps methodologies and cloud architectures for an international project covering around 60 applications. I'm involved as Team Representative and Elastic Expert for an application aimed at collecting and analyzing data from a fleet of several applications. The solution is based on the Elastic Stack, deployed with Docker across a set of distributed servers in different regions. Furthermore, we migrated to AWS using Elastic Cloud Enterprise.\n\nAll projects follow Agile methodologies with the LeSS model to bring together several teams, each working within the Scrum framework. I lead one of those teams focused on the monitoring application, managing resource coordination and client communication. The team is composed of 4 people, and I also serve as Technical Lead, supporting junior colleagues and team members in technical decisions.\n\nMain technologies involved are:\n- Elastic Stack\n- Elastic Beats\n- Elastic APM\n- Linux Server Administration\n- Jenkins\n- Ansible\n- Terraform\n- AWS\n- Bitbucket",
+        "range":"December 2019 - February 2021"
+    },
+    {
+        "role":"Cloud Engineer",
+        "company":"Blue Reply S.R.L - Reply S.p.A Group | Milan, Italy",
+        "summary": "Working on cloud-native applications as a DevOps Engineer and Software Architect. My activities are focused on microservice architectures using innovative technologies such as Docker, Kubernetes, and Spring Boot to develop applications, and CI/CD tools like Jenkins, Maven, and Git to design integration pipelines and manage application releases.\n\nFurther details about the involved activities can be found in the dedicated area with the following projects:\n\n- LUXOTTICA (Milano) – \"EasyBag\"\n- FINDOMESTIC (Firenze) – \"Telematica 2.0\"\n- PRADA (Milano) – \"Hubmarketplace\"\n- ITAS (Trento) – \"Enterprise Architecture Integration Assessment\"\n\nTECH KEYWORDS\n- Kubernetes\n- Docker\n- Spring Boot / Spring Cloud\n- Apache Kafka\n- Camel\n- API Gateway\n- Maven\n- Agile Integration\n- Event-Driven Microservices",
+        "range":"January 2018 - December 2019"
+    },
+    {
+        "role":"Master Thesis & Internship",
+        "company":"Imola Informatica S.p.A | Imola(BO), Italy",
+        "summary": "Thesis: Cloud Computing with Containerization: performance analysis of virtualization architectures",
+        "range":"January 2017 - December 2017"
+    }          
 ]
