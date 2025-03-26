@@ -1,0 +1,48 @@
+title = "Amedeo Palopoli"
+baseURL = "https://amedeopalopoli.com/"
+theme = "hugo-resume"
+languageCode = "en-us"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Gorgonzola(MI)"
+email = "amedeo.palopoli@gmail.com"
+firstName = "Amedeo"
+lastName = "Palopoli"
+phone = "+39 338 8928209"
+profileImage = "images/me.jpeg"
+showQr = true
+showContact = false
+showBoards  = false
+showCertifications = true
+showSocializations = true
+sections = ["skills","publications","experience","education"]
+
+
+[params.google]
+
+[params.google.analytics]
+trackerID = "XX-123446-01"
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/amedeo-palopoli-491b2a75/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/amedeopalopoli"
+
+[[params.handles]]
+    name = "Google Scholar"
+    link = "https://scholar.google.com/citations?user=ATOpCfMAAAAJ&hl=it"
+    icon = "graduation-cap"
+    
+
+[outputs]
+home = ["HTML", "JSON"]
+
+[taxonomies]
+tag = "tags"
