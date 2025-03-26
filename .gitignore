@@ -1,0 +1,22 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Hugo cache and temp files
+hugo_stats.json
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Node.js dependencies (if you're using npm for assets)
+node_modules/
+
+# VS Code settings
+.vscode/
+
+# Environment files (if you use them)
+.env
+.env.*
