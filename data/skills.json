@@ -17,7 +17,7 @@
   },
   {
       "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Java","git","linux","bash"]
+      "skills":[ "Java","Go", "git","linux","bash"]
   },
   {
     "grouping":"Programming Frameworks",
