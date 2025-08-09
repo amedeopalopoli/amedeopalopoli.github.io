@@ -1,6 +1,6 @@
 ---
 title: "[TALK] Kubernetes Like Lego: Building the New Standard for European Cloud APIs"
-date: 2024-06-20
+date: 2025-06-24
 pubtype: "CNCF"
 featured: true
 description: "Proceedings of the 20th International Conference on Distributed Computing and Networking"
