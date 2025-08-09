@@ -4,7 +4,7 @@ date: 2019-01-04
 pubtype: "ACM"
 featured: true
 description: "Proceedings of the 20th International Conference on Distributed Computing and Networking"
-tags: ["Containers","OpenStack","Cloud Computing"]
+tags: ["Publication","Containers","OpenStack","Cloud Computing"]
 link: "https://dl.acm.org/doi/abs/10.1145/3288599.3288631/"
 fact: "Interesting little tidbit shown below image on summary and detail page"
 weight: 400

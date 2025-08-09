@@ -4,7 +4,7 @@ date: 2019-05-20
 pubtype: "IEEE"
 featured: true
 description: "Published in: ICC 2019 - 2019 IEEE International Conference on Communications (ICC)"
-tags: ["Containers","Kubernetes","Apache Mesos","Docker Swarm","Rancher"]
+tags: ["Publication","Containers","Kubernetes","Apache Mesos","Docker Swarm","Rancher"]
 link: "https://ieeexplore.ieee.org/abstract/document/8762053/"
 fact: "Interesting little tidbit shown below image on summary and detail page"
 weight: 400

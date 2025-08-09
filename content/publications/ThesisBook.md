@@ -4,7 +4,7 @@ date: 2017-12-20
 pubtype: "Book"
 featured: true
 description: "Master Thesis - University of Bologna: Science of Computer Engineering"
-tags: ["Containers","OpenStack","Cloud Computing"]
+tags: ["Publication","Containers","OpenStack","Cloud Computing"]
 link: "https://amslaurea.unibo.it/id/eprint/14818/"
 fact: "Interesting little tidbit shown below image on summary and detail page"
 weight: 400

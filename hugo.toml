@@ -28,6 +28,11 @@ showSocializations = true
 linkedin = "https://linkedin.com/in/yourname"
 sections = ["skills","publications","experience","education","contact"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 ignoreLogs = ["warning-goldmark-raw-html"]
 
 [params.google]
