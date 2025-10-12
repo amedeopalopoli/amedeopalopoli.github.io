@@ -6,6 +6,10 @@
         <div class="mb-4">
           <div class="subheading mb-1" style="line-height:1.4;">{{ .title }} <span style="font-weight:400;">({{ .year }})</span></div>
           <div class="text-muted" style="line-height:1.4;">{{ .event }}</div>
+           <div class="text-muted" style="line-height:1.4;">
+             <strong>Date:</strong> {{ .date }}<br>
+             <strong>Location:</strong> {{ .city }}
+           </div>
           <a href="{{ .link }}" target="_blank">Link</a>
         </div>
       {{ end }}
