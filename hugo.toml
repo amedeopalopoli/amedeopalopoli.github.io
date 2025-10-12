@@ -12,6 +12,16 @@ name = "Contact"
 url = "#contact"
 weight = 50
 
+[[menu.main]]
+name = "Publications"
+url = "/publications/"
+weight = 60
+
+[[menu.main]]
+name = "Talks"
+url = "/talks/"
+weight = 70
+
 
 [params]
 address = "Gorgonzola | Milan, Italy"
@@ -26,7 +36,7 @@ showBoards  = false
 showCertifications = true
 showSocializations = true
 linkedin = "https://linkedin.com/in/yourname"
-sections = ["skills","publications","experience","education","contact"]
+sections = ["skills","publications","talks","experience","education","contact"]
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+    <h2>Talks</h2>
+    {{ $talks := site.Data.talks }}
+    <ul>
+      {{ range $talks }}
+        <li>
+          <strong>{{ .title }}</strong> ({{ .year }})<br>
+          Event: {{ .event }}<br>
+          <a href="{{ .link }}">Link</a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}

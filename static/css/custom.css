@@ -1,0 +1,17 @@
+html {
+  font-size: 18px;
+}
+body {
+  font-size: 1.1rem;
+}
+/* Force sidebar nav links to be white */
+#sideNav .navbar-nav .nav-item .nav-link {
+  color: #fff !important;
+}
+/* Ensure white text for publications and talks sections */
+.white-section {
+  color: inherit !important;
+  background-color: inherit !important;
+  border-radius: 0;
+  padding: inherit;
+}
