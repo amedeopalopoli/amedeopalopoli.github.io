@@ -9,7 +9,7 @@ This page represents the landing page for "publications" section. It is also sho
 &lt;p&gt;This implementation uses Fusejs, jquery and mark.js&lt;/p&gt;
 &lt;h2 id="initial-setup"&gt;Initial setup&lt;/h2&gt;
 &lt;p&gt;Search depends on additional output content type of JSON in config.toml&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[outputs]
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;[outputs]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; home = [&amp;#34;HTML&amp;#34;, &amp;#34;JSON&amp;#34;]
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="searching-additional-fileds"&gt;Searching additional fileds&lt;/h2&gt;
 &lt;p&gt;To search additional fields defined in front matter, you must add it in 2 places.&lt;/p&gt;</description></item></channel></rss>
