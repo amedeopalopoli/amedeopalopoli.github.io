@@ -1,0 +1,268 @@
+/* ============================================================
+   Modern design overrides for amedeopalopoli.github.io
+   Loaded last — takes full precedence over theme styles.
+   ============================================================ */
+
+/* ---- Design tokens ---------------------------------------- */
+:root {
+  --accent:        #4f46e5;   /* indigo-600 */
+  --accent-light:  #6366f1;   /* indigo-500 */
+  --accent-muted:  #e0e7ff;   /* indigo-100 */
+  --text-body:     #4b5563;   /* gray-600 */
+  --text-heading:  #111827;   /* gray-900 */
+  --text-muted:    #6b7280;   /* gray-500 */
+  --border:        #e5e7eb;   /* gray-200 */
+  --surface:       #f9fafb;   /* gray-50 */
+  --sidebar-from:  #1e1b4b;   /* indigo-950 */
+  --sidebar-to:    #312e81;   /* indigo-900 */
+  --radius:        0.75rem;
+  --transition:    0.2s ease;
+}
+
+/* ---- Global typography ------------------------------------ */
+body {
+  color: var(--text-body);
+  background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-heading);
+}
+
+a {
+  color: var(--accent);
+  transition: color var(--transition);
+}
+
+a:hover, a:focus, a:active {
+  color: var(--accent-light);
+  text-decoration: none;
+}
+
+/* ---- Sidebar ---------------------------------------------- */
+.bg-primary {
+  background: linear-gradient(180deg, var(--sidebar-from) 0%, var(--sidebar-to) 100%) !important;
+}
+
+#sideNav .navbar-brand .img-profile {
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.06), 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+#sideNav .navbar-brand .img-profile:hover {
+  box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.15), 0 12px 32px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  padding: 0.55rem 1.25rem;
+  border-left: 3px solid transparent;
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fff !important;
+  border-left-color: var(--accent-light);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Section headings ------------------------------------- */
+section.resume-section {
+  border-bottom: 1px solid var(--border);
+}
+
+section.resume-section h2 {
+  font-size: 2.8rem;
+  color: var(--text-heading);
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2.5rem !important;
+}
+
+section.resume-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 100%);
+  border-radius: 2px;
+}
+
+.subheading {
+  color: var(--accent);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+}
+
+.text-primary {
+  color: var(--accent) !important;
+}
+
+/* ---- Experience & Education ------------------------------- */
+.resume-item {
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent-muted);
+  background: var(--surface);
+  margin-bottom: 1.75rem !important;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+.resume-item:hover {
+  border-left-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(79, 70, 229, 0.08);
+}
+
+.resume-item h3 {
+  font-size: 1.4rem;
+  color: var(--text-heading);
+}
+
+.resume-item .resume-date span {
+  background: var(--accent-muted);
+  color: var(--accent);
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---- Skills ----------------------------------------------- */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#skills .list-inline-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--text-body);
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+  cursor: default;
+  margin: 0;
+}
+
+#skills .list-inline-item:hover {
+  background: var(--accent-muted);
+  border-color: var(--accent-light);
+  color: var(--accent);
+}
+
+#skills .list-inline-item i {
+  font-size: 1rem;
+}
+
+/* ---- Publications & Talks --------------------------------- */
+#publications .mb-4,
+#talks .mb-4 {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent-muted);
+  background: var(--surface);
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+#publications .mb-4:hover,
+#talks .mb-4:hover {
+  border-left-color: var(--accent);
+  box-shadow: 0 4px 20px rgba(79, 70, 229, 0.08);
+}
+
+#publications .subheading,
+#talks .subheading {
+  font-size: 1rem;
+  color: var(--text-heading);
+}
+
+#publications a,
+#talks a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.2rem 0.65rem;
+  border: 1px solid var(--accent-muted);
+  border-radius: 999px;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+#publications a:hover,
+#talks a:hover {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+/* ---- Social icons (about section) ------------------------- */
+.list-social-icons a {
+  color: var(--text-muted);
+  transition: color var(--transition), transform var(--transition);
+  display: inline-block;
+}
+
+.list-social-icons a:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+/* ---- About section name ----------------------------------- */
+#about h1 {
+  font-size: 4.5rem;
+  line-height: 1.05;
+  color: var(--text-heading);
+}
+
+#about .subheading {
+  font-size: 1.3rem;
+}
+
+/* ---- Footer ----------------------------------------------- */
+div.container-fluid > section:last-child {
+  padding: 1.5rem 3rem;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--text-muted) !important;
+}
+
+/* ---- Tag elements ----------------------------------------- */
+.tag {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-body);
+  border-radius: 0.4rem;
+  transition: background var(--transition), color var(--transition);
+}
+
+.tag:hover {
+  background: var(--accent-muted);
+  color: var(--accent);
+  border-color: var(--accent-light);
+}
+
+/* ---- Blockquote ------------------------------------------- */
+blockquote {
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
