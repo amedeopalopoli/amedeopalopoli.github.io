@@ -1,5 +1,27 @@
 [
   {
+    "title": "Costruire una Internal Developer Platform: GitOps, Multi-Tenancy e astrazione dei servizi",
+    "event": "Incontro DevOps Italia 2026",
+    "year": 2026,
+    "pubtype": "Conference",
+    "city": "Bologna, Italy",
+    "date": "2026-03-20",
+    "description": "In questo talk presenteremo un caso pratico di costruzione di una Internal Developer Platform partendo da un’infrastruttura IaaS e da servizi gestiti, introducendo un layer di piattaforma dichiarativo, automatizzato e guidato da GitOps.\n\nUtilizzando Kubernetes come runtime cloud-native e GitOps come modello di controllo, vedremo come astrarre le risorse infrastrutturali sottostanti — indipendentemente dal cloud provider — in primitive di piattaforma pensate per gli sviluppatori, abilitate al self-service e governate da policy-as-code.\n\nApprofondiremo l’architettura di una IDP basata su Kubernetes e control plane dichiarativi, la gestione del multi-tenancy con isolamento, sicurezza e governance integrata, l’astrazione dei servizi infrastrutturali in “golden path” applicativi e la prevenzione del drift tramite GitOps.\n\nL’obiettivo è mostrare come una Internal Developer Platform non sia un insieme di tool, ma un prodotto interno progettato per ridurre il cognitive load degli sviluppatori, mantenendo sicurezza, compliance e resilienza by design.",
+    "tags": [
+      "Talk",
+      "Platform Engineering",
+      "Kubernetes",
+      "GitOps",
+      "Multi-Tenancy",
+      "Conference",
+      "DevOps",
+      "Community"
+    ],
+    "link": "https://www.incontrodevops.it/talk/costruire-una-internal-developer-platform-gitops-multi-tenancy-e-astrazione-dei-servizi/",
+    "fact": "Caso pratico: costruzione di una Internal Developer Platform multi-tenant con Kubernetes e GitOps, usando Aruba Cloud come esempio concreto ma applicabile a qualsiasi cloud provider.",
+    "featured": true
+  },
+  {
   "title": "The operator's mindset: customize Kubernetes for your applications",
     "event": "Codemotion Milan 2025",
     "year": 2025,
